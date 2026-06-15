@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/summaryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget Summary"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/currentSpendingTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Spending: R0"/>
+
+        <TextView
+            android:id="@+id/goalRangeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal Range: R0 - R0"/>
+
+        <TextView
+            android:id="@+id/dashboardStatusTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: No Goals Set"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BreadTracker"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Welcome Back!"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/darkModeSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/addCategoryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📂 Categories" />
+
+        <Button
+            android:id="@+id/addExpenseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💵 Add Expense" />
+
+        <Button
+            android:id="@+id/viewExpenseBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 View Expenses" />
+
+        <Button
+            android:id="@+id/goalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Monthly Goals" />
+
+        <Button
+            android:id="@+id/reportBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Reports" />
+
+        <Button
+            android:id="@+id/achievementBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏆 Achievements" />
+
+        <Button
+            android:id="@+id/graphBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📈 Budget Progress" />
+
+    </LinearLayout>
+
+</ScrollView>
