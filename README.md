@@ -58,6 +58,9 @@ GitHub was used for version control and project management throughout developmen
 * Git
 * GitHub
 
+Video presentation:
+https://youtu.be/Ll9pdMx1lNU?si=RuW-9WeQJXlge18i
+
 ## Conclusion
 
 BreadTracker provides users with a simple and effective way to manage their finances. By combining expense tracking, budget monitoring, achievements, and dark mode support, the application offers a practical solution for personal budgeting.
